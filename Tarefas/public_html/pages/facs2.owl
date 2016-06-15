@@ -1,0 +1,3454 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hamilton.matos/ontologies/2016/5/facs"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hamilton.matos/ontologies/2016/5/facs">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#FaceMuscle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disgust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NasalisParsAlaris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M69"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsOrbitalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raiser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temporalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#71"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aUNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forward"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digastric"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fACSName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeadMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M56"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrossEye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M68"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurnLeft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surprise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#82"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pucker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#39"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clencher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M59"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementOfPain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#73"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#85"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B_Slight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZygomaticusMajor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacialMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#98"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UpwardAndToTheSide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TiltRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#84"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#72"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#97"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RhesusMacaques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaputInfraorbitalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thrust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walleye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FACSAID_FacialActionCodingSustemAffectInterpretationDictionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orangutans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Head"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrbicularisOculi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#51"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurnRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMFACS_EmotionalFacialActionCodingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chimpanzees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Happiness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_Maximum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A_Trace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NasalisParsTransversa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShakeUpAndDown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntensityScoring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#62"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#74"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nasalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#50"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IncisiviiLabiiSuperioris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrinkler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionedToLookAtOtherPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gibbons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stretch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThrustForward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LevatorAnguliOris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZygomaticMajor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canBeUsedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Occipitofrontalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Up"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMuscle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M83"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DepressorSupercilii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sideways"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Risorius"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dumpler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compressor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LevatorLabiiSuperioris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#65"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShakeSideToSide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TowardEachOther"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Funneler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deepener"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masseter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stretcher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pterygoids"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tightener"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buccinator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Main"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LevatorLabiiSuperiorisAlaequeNasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gatherer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IncisiviiLabiiInferioris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rolling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D_SevereOrExtreme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsPalpebralis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrontalisParsLateralis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZygomaticusMinor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encodes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bulge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrontalisParsMedialis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DepressorLabiiInferioris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auriculars_AnteriorSuperiorAndPosterior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DepressorGlabellae"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#69"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M62"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#91"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#categorizes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actionDescription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contempt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuperiorTarsalMuscle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DepressorSeptiNasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lowerer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mentalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#36"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LevatorPalpebraeSuperioris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Show"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Procerus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TiltLeft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_MarkedPrPronounced"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#35"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EyeMovement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#81"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionUnit_AU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Temporoparietalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#26"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Down"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Platysma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M55"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Back"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Depressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonHuman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CorrugatorSupercilii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wipe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#80"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#92"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dilator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrossBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeadOrEyesLookAtOtherPerson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DepressorAnguliOris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InternalPterygoid"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#A_Trace"/>
+        <Class IRI="#IntensityScoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionUnit_AU"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B_Slight"/>
+        <Class IRI="#IntensityScoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Back"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bite"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blink"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blow"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulge"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_MarkedPrPronounced"/>
+        <Class IRI="#IntensityScoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chimpanzees"/>
+        <Class IRI="#NonHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clencher"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closed"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compressor"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contraction"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrossEye"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D_SevereOrExtreme"/>
+        <Class IRI="#IntensityScoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deepener"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depression"/>
+        <Class IRI="#HumanAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Depressor"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dilator"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dog"/>
+        <Class IRI="#NonHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Down"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Down"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drop"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dumpler"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMFACS_EmotionalFacialActionCodingSystem"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_Maximum"/>
+        <Class IRI="#IntensityScoring"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotion"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FACSAID_FacialActionCodingSustemAffectInterpretationDictionary"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FaceMuscle"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacialMovement"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forward"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Funneler"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gatherer"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gibbons"/>
+        <Class IRI="#NonHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Head"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeadOrEyesLookAtOtherPerson"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#FacialMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAnalysis"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntensityScoring"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Left"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lowerer"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementOfPain"/>
+        <Class IRI="#HumanAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonHuman"/>
+        <Class IRI="#FacialMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orangutans"/>
+        <Class IRI="#NonHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Part"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionedToLookAtOtherPerson"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressor"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pucker"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puff"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puller"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raiser"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RhesusMacaques"/>
+        <Class IRI="#NonHuman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rolling"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShakeSideToSide"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShakeUpAndDown"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Show"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sideways"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stretch"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stretcher"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suck"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thrust"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThrustForward"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tightener"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TiltLeft"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TiltRight"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TowardEachOther"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurnLeft"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurnLeft"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurnRight"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurnRight"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Up"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Up"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UpwardAndToTheSide"/>
+        <Class IRI="#Head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walleye"/>
+        <Class IRI="#Eye"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wink"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wipe"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wrinkler"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#A_Trace"/>
+        <Class IRI="#B_Slight"/>
+        <Class IRI="#C_MarkedPrPronounced"/>
+        <Class IRI="#D_SevereOrExtreme"/>
+        <Class IRI="#E_Maximum"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Back"/>
+        <Class IRI="#Down"/>
+        <Class IRI="#Forward"/>
+        <Class IRI="#ShakeSideToSide"/>
+        <Class IRI="#ShakeUpAndDown"/>
+        <Class IRI="#ThrustForward"/>
+        <Class IRI="#TiltLeft"/>
+        <Class IRI="#TiltRight"/>
+        <Class IRI="#TurnLeft"/>
+        <Class IRI="#TurnRight"/>
+        <Class IRI="#Up"/>
+        <Class IRI="#UpwardAndToTheSide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bite"/>
+        <Class IRI="#Blink"/>
+        <Class IRI="#Blow"/>
+        <Class IRI="#Bulge"/>
+        <Class IRI="#Clencher"/>
+        <Class IRI="#Closed"/>
+        <Class IRI="#Compressor"/>
+        <Class IRI="#Deepener"/>
+        <Class IRI="#Depressor"/>
+        <Class IRI="#Dilator"/>
+        <Class IRI="#Drop"/>
+        <Class IRI="#Dumpler"/>
+        <Class IRI="#Funneler"/>
+        <Class IRI="#Gatherer"/>
+        <Class IRI="#Lowerer"/>
+        <Class IRI="#Part"/>
+        <Class IRI="#Pressor"/>
+        <Class IRI="#Pucker"/>
+        <Class IRI="#Puff"/>
+        <Class IRI="#Puller"/>
+        <Class IRI="#Raiser"/>
+        <Class IRI="#Show"/>
+        <Class IRI="#Sideways"/>
+        <Class IRI="#Stretch"/>
+        <Class IRI="#Stretcher"/>
+        <Class IRI="#Suck"/>
+        <Class IRI="#Thrust"/>
+        <Class IRI="#Tightener"/>
+        <Class IRI="#TowardEachOther"/>
+        <Class IRI="#Wink"/>
+        <Class IRI="#Wipe"/>
+        <Class IRI="#Wrinkler"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chimpanzees"/>
+        <Class IRI="#Dog"/>
+        <Class IRI="#Gibbons"/>
+        <Class IRI="#Orangutans"/>
+        <Class IRI="#RhesusMacaques"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CrossEye"/>
+        <Class IRI="#Down"/>
+        <Class IRI="#HeadOrEyesLookAtOtherPerson"/>
+        <Class IRI="#Left"/>
+        <Class IRI="#PositionedToLookAtOtherPerson"/>
+        <Class IRI="#Right"/>
+        <Class IRI="#Rolling"/>
+        <Class IRI="#TurnLeft"/>
+        <Class IRI="#TurnRight"/>
+        <Class IRI="#Up"/>
+        <Class IRI="#Walleye"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Depression"/>
+        <Class IRI="#MeasurementOfPain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EMFACS_EmotionalFacialActionCodingSystem"/>
+        <Class IRI="#FACSAID_FacialActionCodingSustemAffectInterpretationDictionary"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Human"/>
+        <Class IRI="#NonHuman"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Anger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Auriculars_AnteriorSuperiorAndPosterior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Buccinator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#CaputInfraorbitalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Contempt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#CorrugatorSupercilii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#DepressorAnguliOris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#DepressorGlabellae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#DepressorLabiiInferioris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#DepressorSeptiNasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#DepressorSupercilii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Digastric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Disgust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Fear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#FrontalisParsLateralis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#FrontalisParsMedialis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Happiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#IncisiviiLabiiInferioris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#IncisiviiLabiiSuperioris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#InternalPterygoid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#LevatorAnguliOris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#LevatorLabiiSuperioris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#LevatorLabiiSuperiorisAlaequeNasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#LevatorPalpebraeSuperioris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M61"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M62"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M68"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M69"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#M83"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+        <NamedIndividual IRI="#Main"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Masseter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Mentalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Nasalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#NasalisParsAlaris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#NasalisParsTransversa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Occipitofrontalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#OrbicularisOculi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsOrbitalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsPalpebralis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Platysma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Procerus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Pterygoids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Risorius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Sadness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#SuperiorTarsalMuscle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotion"/>
+        <NamedIndividual IRI="#Surprise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Temporalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#Temporoparietalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+        <NamedIndividual IRI="#Visibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#ZygomaticMajor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#ZygomaticusMajor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FaceMuscle"/>
+        <NamedIndividual IRI="#ZygomaticusMinor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#51"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#52"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#58"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#61"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#62"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#63"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#65"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#69"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#71"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#72"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#73"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#80"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#81"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#82"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#84"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#85"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#91"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#92"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActionUnit_AU"/>
+        <NamedIndividual IRI="#98"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Anger"/>
+        <NamedIndividual IRI="#23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Anger"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Anger"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Anger"/>
+        <NamedIndividual IRI="#7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Disgust"/>
+        <NamedIndividual IRI="#15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Disgust"/>
+        <NamedIndividual IRI="#16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Disgust"/>
+        <NamedIndividual IRI="#9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#M61"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#M62"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#M68"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#M69"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#61"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#62"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#63"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#65"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#66"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#EyeMovement"/>
+        <NamedIndividual IRI="#69"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Fear"/>
+        <NamedIndividual IRI="#7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#40"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#50"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#80"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#81"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#82"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#84"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#85"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#91"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#92"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#97"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#GrossBehavior"/>
+        <NamedIndividual IRI="#98"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Happiness"/>
+        <NamedIndividual IRI="#12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Happiness"/>
+        <NamedIndividual IRI="#6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M55"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M57"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M59"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M60"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#M83"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#51"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#52"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#53"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#54"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#55"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#56"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#57"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#HeadMovement"/>
+        <NamedIndividual IRI="#58"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#17"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#18"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#19"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#21"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#22"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#27"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#29"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#33"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#34"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#35"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#36"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#37"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#39"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#42"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#43"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#44"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#45"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#46"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Main"/>
+        <NamedIndividual IRI="#9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Sadness"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Sadness"/>
+        <NamedIndividual IRI="#15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Sadness"/>
+        <NamedIndividual IRI="#4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Surprise"/>
+        <NamedIndividual IRI="#1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Surprise"/>
+        <NamedIndividual IRI="#2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Surprise"/>
+        <NamedIndividual IRI="#26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Visibility"/>
+        <NamedIndividual IRI="#70"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Visibility"/>
+        <NamedIndividual IRI="#71"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Visibility"/>
+        <NamedIndividual IRI="#72"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Visibility"/>
+        <NamedIndividual IRI="#73"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <NamedIndividual IRI="#Visibility"/>
+        <NamedIndividual IRI="#74"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#1"/>
+        <NamedIndividual IRI="#FrontalisParsMedialis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#CaputInfraorbitalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#10"/>
+        <NamedIndividual IRI="#LevatorLabiiSuperioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#11"/>
+        <NamedIndividual IRI="#ZygomaticusMinor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#12"/>
+        <NamedIndividual IRI="#ZygomaticusMajor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#13"/>
+        <NamedIndividual IRI="#LevatorAnguliOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#14"/>
+        <NamedIndividual IRI="#Buccinator"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#15"/>
+        <NamedIndividual IRI="#DepressorAnguliOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#16"/>
+        <NamedIndividual IRI="#DepressorLabiiInferioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#17"/>
+        <NamedIndividual IRI="#Mentalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#18"/>
+        <NamedIndividual IRI="#IncisiviiLabiiInferioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#18"/>
+        <NamedIndividual IRI="#IncisiviiLabiiSuperioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#2"/>
+        <NamedIndividual IRI="#FrontalisParsLateralis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#20"/>
+        <NamedIndividual IRI="#Platysma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#20"/>
+        <NamedIndividual IRI="#Risorius"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#21"/>
+        <NamedIndividual IRI="#Platysma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#22"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#23"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#24"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#25"/>
+        <NamedIndividual IRI="#DepressorLabiiInferioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#25"/>
+        <NamedIndividual IRI="#Mentalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#25"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#26"/>
+        <NamedIndividual IRI="#InternalPterygoid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#26"/>
+        <NamedIndividual IRI="#Masseter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#26"/>
+        <NamedIndividual IRI="#Temporalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#27"/>
+        <NamedIndividual IRI="#Digastric"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#27"/>
+        <NamedIndividual IRI="#Pterygoids"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#28"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#31"/>
+        <NamedIndividual IRI="#Masseter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#38"/>
+        <NamedIndividual IRI="#NasalisParsAlaris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#39"/>
+        <NamedIndividual IRI="#DepressorSeptiNasi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#39"/>
+        <NamedIndividual IRI="#NasalisParsTransversa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#CorrugatorSupercilii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#DepressorGlabellae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#4"/>
+        <NamedIndividual IRI="#DepressorSupercilii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#41"/>
+        <NamedIndividual IRI="#DepressorGlabellae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#42"/>
+        <NamedIndividual IRI="#DepressorSupercilii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#43"/>
+        <NamedIndividual IRI="#LevatorPalpebraeSuperioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#44"/>
+        <NamedIndividual IRI="#CorrugatorSupercilii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#45"/>
+        <NamedIndividual IRI="#LevatorPalpebraeSuperioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#45"/>
+        <NamedIndividual IRI="#OrbicularisOculi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#46"/>
+        <NamedIndividual IRI="#OrbicularisOculi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#LevatorPalpebraeSuperioris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#5"/>
+        <NamedIndividual IRI="#SuperiorTarsalMuscle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#6"/>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsOrbitalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#7"/>
+        <NamedIndividual IRI="#OrbicularisOculi_ParsPalpebralis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#8"/>
+        <NamedIndividual IRI="#OrbicularisOris"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <NamedIndividual IRI="#9"/>
+        <NamedIndividual IRI="#LevatorLabiiSuperiorisAlaequeNasi"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by a head tilt to the left.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Tilt Left</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M56"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M56"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by a head tilt to the right.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M56"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Tilt Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M57"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M57"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of 17+24 is immediately preceded, accompanied, or followed by a head thrust forward.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M57"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Thrust Forward</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M59"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M59"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of 17+24 is immediately preceded, accompanied, or followed by an up-down head shake (nod).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M59"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Shake Up and Down</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M60"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M60"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of 17+24 is immediately preceded, accompanied, or followed by a side to side head shake.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M60"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Shake Side to Side</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M61"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M61"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by eye movement to the left.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M61"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Left</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M62"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M62"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by eye movement to the right.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M62"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M68"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M68"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by an upward rolling of the eyes.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M68"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Upward Rolling of Eyes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 or AUs 4, 5, and 7, alone or in combination, is immediately preceded or accompanied by a movement of the eyes or of the head and eyes to look at the other person in the conversation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head and/or Eyes Look at Other Person</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#M83"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M83</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#M83"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The onset of the symmetrical 14 is immediately preceded or accompanied by a movement of the head, upward and turned and/or tilted to either the left or right.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#M83"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Upward and to the Side</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Outer Brow Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inner Brow Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Upper Lip Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nasolabial Deepener</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Corner Puller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sharp Lip Puller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Dimpler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Corner Depressor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lower Lip Depressor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#17"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#17"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chin Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#18"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Pucker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#19"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#19"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tongue Show</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Outer Brow Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#20"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Stretcher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neck Tightener</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#22"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#22"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Funneler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#23"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#23"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Tightener</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#24"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#24"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Pressor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#25"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lips Part</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#26"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#26"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jaw Drop</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#27"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#27"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mouth Stretch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#28"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#28"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Suck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#29"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jaw Thrust</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#30"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#30"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jaw Sideways</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#31"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#31"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jaw Clencher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#32"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[Lip] Bite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#33"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#33"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[Cheek] Blow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[Cheek] Puff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[Cheek] Suck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#36"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#36"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[Tongue] Bulge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#37"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#37"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lip Wipe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#38"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#38"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nostril Dilator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#39"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#39"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nostril Compressor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Brow Lowerer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#40"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sniff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#41"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#41"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Glabella Lowerer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#42"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#42"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Inner Eyebrow Lowerer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#43"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Closed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#44"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#44"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyebrow Gatherer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#45"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#45"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Blink</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#46"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#46"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Wink</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Upper Lid Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#50"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#50"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Speech</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#51"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#51"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Turn Left</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#52"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#52"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Turn Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#53"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#53"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Up</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#54"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#54"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Down</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#55"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Tilt Left</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#56"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#56"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Tilt Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#57"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#57"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Forward</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#58"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#58"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head Back</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cheek Raiser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#61"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#61"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Turn Left</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#62"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#62"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Turn Right</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#63"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Up</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#64"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#64"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Down</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#65"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#65"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Walleye</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#66"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#66"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cross-eye</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actionDescription"/>
+        <NamedIndividual IRI="#69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The 4, 5, or 7, alone or in combination, occurs while the eye position is fixed on the other person in the conversation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#69"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes Positioned to Look at Other Person</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lid Tightener</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#70"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#70"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Brows and forehead not visible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#71"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">71</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#71"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Eyes not visible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#72"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#72"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lower face not visible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#73"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#73"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Entire face not visible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#74"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">74</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#74"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Unscorable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lips Toward Each Other</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#80"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#80"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Swallow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#81"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">81</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#81"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chewing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#82"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#82"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Shoulder shrug</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#84"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">84</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#84"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head shake back and forth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">85</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#85"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Head nod up and down</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Nose Wrinkler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#91"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">91</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#91"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#92"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#92"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Partial flash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#97"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">97</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#97"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Shiver/Tremble</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUNumber"/>
+        <NamedIndividual IRI="#98"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">98</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fACSName"/>
+        <NamedIndividual IRI="#98"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fast up-down look</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analyzes"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canBeUsedTo"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#categorizes"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#encodes"/>
+        <Class IRI="#FACS_FacialActionCodingSystem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <Class IRI="#ActionUnit_AU_CodeCategory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analyzes"/>
+        <Class IRI="#FacialMovement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canBeUsedTo"/>
+        <Class IRI="#HumanAnalysis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#categorizes"/>
+        <Class IRI="#Emotion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActionUnit"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMuscle"/>
+        <Class IRI="#FaceMuscle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#FaceMuscle"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#actionDescription"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#aUNumber"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fACSName"/>
+        <Class IRI="#ActionUnit_AU"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#aUNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fACSName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Basic relationships of Action Units defined by FACS</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
