@@ -1,0 +1,140 @@
+FacialExpression
+	Human
+	NonHuman
+		Chimpanzees
+		RhesusMacaques
+		Gibbons
+		Orangutans
+		Dog
+FACSCodes
+Emotion
+	Happiness
+	Sadness
+	Surprise
+	Fear
+	Anger
+	Disgust
+	Contempt
+ActionUnit
+	Main
+	HeadMovement
+	EyeMovement
+	Visibility 
+	GrossBehavior 
+ActionDescriptor
+BasicEmotion
+FACS_FacialActionCodingSystem
+	EMFACS_EmotionalFacialActionCodingSystem
+	FACSAID_FacialActionCodingSustemAffectInterpretationDictionary
+Muscle
+	ZygomaticMajor
+	OrbicularisOculi
+	Occipitofrontalis
+	Temporoparietalis
+	Procerus
+	Nasalis
+	DepressorSeptiNasi
+	OrbicularisOculi
+	CorrugatorSupercilii
+	DepressorSupercilii
+	Auriculars_AnteriorSuperiorAndPosterior
+	OrbicularisOris
+	DepressorAnguliOris
+	Risorius
+	ZygomaticusMajor
+	ZygomaticusMinor
+	LevatorLabiiSuperioris
+	LevatorLabiiSuperiorisAlaequeNasi
+	DepressorLabiiInferioris
+	LevatorAnguliOris
+	Buccinator
+	Mentalis
+MusclePart
+	Inferior
+	Superior
+IntensityScoring
+	A_Trace
+	B_Slight
+	C_MarkedPrPronounced
+	D_SevereOrExtreme
+	E_Maximum
+Movement
+	General	
+		Bite
+		Blink
+		Blow
+		Bulge
+		Clencher
+		Closed
+		Compressor
+		Deepener
+		Depressor
+		Dilator
+		Drop
+		Dumpler
+		Funneler
+		Gatherer
+		Lowerer
+		Part
+		Pressor
+		Pucker
+		Puff
+		Puller
+		Raiser
+		Show
+		Sideways
+		Stretch
+		Stretcher
+		Suck		
+		Thrust
+		Tightener
+		TowardEachOther
+		Wink
+		Wipe
+		Wrinkler
+	Head
+		TurnLeft
+		TurnRight
+		Up
+		Down
+		TiltLeft
+		TiltRight
+		Forward
+		ThrustForward
+		Back
+		ShakeUpAndDown
+		ShakeSideToSide
+		UpwardAndToTheSide
+	Eye
+		TurnLeft
+		Left
+		TurnRight
+		Right
+		Up
+		Down
+		Walleye
+		CrossEye
+		Rolling
+		PositionedToLookAtOtherPerson
+		HeadOrEyesLookAtOtherPerson
+	Visibility
+		NotVisible
+		Unscorable
+	GrossBehavior
+		Sniff
+		Speech
+		Swallow
+		Chewing
+		ShoulderShrug
+		HeadShakeBackAndForth
+		HeadNodUpAndDown
+		Flash
+		PartialFlash
+		ShiverOrTremble
+		FastUpDownLook
+Smile
+	Insincere_PanAmSmile
+	Sincere_DuchenneSmile
+HumanAnalysis
+	Depression
+	MeasurementOfPain
